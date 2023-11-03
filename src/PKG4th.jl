@@ -1,5 +1,7 @@
 module PKG4th
 
-greet() = print("Hello World!")
+include ("palindrome.jl")
+
+export find_largest_palindrome_product()
 
 end # module PKG4th
